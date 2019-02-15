@@ -1,79 +1,32 @@
 <!doctype html>
-<html lang="no">
+<html>
 <head>
-  <meta name="author" content="#">
-  <meta charset="UTF-8">
-  <meta name="description" content"En side laget for gøy">
-  <meta name="keywords" content="en, side, kødd, olethomas">
-  
 <style>
-  
-  body{
-    background-color: #A8AKL4;
-    text-align: center;
+  #boks {
+    heiht: 50px;
+    widht: 50px;
+    background-color: blue;
+    position: relative;
+    animation-name: frem-og-tilbake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
-  h1{
-    color:black;
-    background-color:aqua;
-    font-size:80px;
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-decoration: blink;
-    font-family: imact, sans-serif;
+ @keyframes frem-og-tilbake {
+   0% {
+     left: 0px;
+   }
+   100% {
+     left: 100px;
+   }
   }
-  
-  h2{
-    font-weight: normal;
-  }
-  
-  p {
-    font-family: georgia, 'times new roman', serif;
-  }
-  
-  span {
-    color:orange;
-  }
-  
-  
-  a {
-    font-weight: bold;
-  }
-  
-  #uthevet{
-    font-weight: bold;
-    color: black;
-  }
-  
-  .stor{
-    font-size: 24px;
-  }
-  
-  
-  <p id"uthevet">Oleeethoooomas er trash i fortnite kontakt meg for tips til å bli bedre enn ham. her 
-  <a href="mailto:oleroberts1@gmail.com">oleroberts1@gmail.com</a></p>
-    font-family: georgia, 'times new roman', serif;
-  }
-  
-  img {
-    border-color: red;
-    border-width: 10px;
-    border-style: solid;
-  }
-  
- <img src="https://www.google.com/search?q=fat+albanian&rlz=1C1GCEA_enNO831NO831&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi_h_LPofffAhXHlSwKHVoEAnIQ_AUIDigB&biw=1707&bih=821#imgrc=chZy6zSABKEx3M:" width="500" height="600">
-  
   </style>
   </head>
   <body>
-    <h1>OleThomas</h1>
-    <h2>Sander</h2>
-    <h3> arian</h3>
-    <h4> kkakakakak</h4>
-    <a href="https://www.youtube.com/channel/UCTHVhR3qZH1Z6tSIprigT9Q"> repper yt hans</a>
-    
+    <div id="boks"></div>
   </body>
 </html>
-  
+ 
   
   
   
